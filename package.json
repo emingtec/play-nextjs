@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "prisma generate && next build",
+    "deploy": "opennextjs-cloudflare && wrangler deploy",
     "start": "next start",
     "lint": "next lint"
   },
@@ -29,9 +30,12 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "stripe": "^14.7.0",
-    "tailgrids": "^2.2.7"
+    "tailgrids": "^2.2.7",
+    "wrangler": "^3.113.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250303.0",
+    "@opennextjs/cloudflare": "^0.5.3",
     "@types/bcrypt": "^5.0.2",
     "@types/node": "^20.11.27",
     "@types/nodemailer": "^6.4.14",
