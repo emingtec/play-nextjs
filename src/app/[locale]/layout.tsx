@@ -5,7 +5,6 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import "@/styles/index.css";
 import "@/styles/prism-vsc-dark-plus.css";
-import ToasterContext from "../api/contex/ToasetContex";
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { getMessages, setRequestLocale } from 'next-intl/server';

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import { NextIntlClientProvider } from "next-intl";
-import ToasterContext from "@/app/api/contex/ToasetContex";
+import ToasterContext from "@/app/[locale]/api/contex/ToasetContex";
 import PreLoader from "@/components/Common/PreLoader";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
